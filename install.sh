@@ -12,7 +12,7 @@ sudo apt-get install -y ssh
 sudo apt-get install -y openssh-server
 sudo apt-get install -y systemd
 sudo apt-get install -y systemctl
-sudo apt-get install -y docker.ok 
+sudo apt-get install -y docker.io
 sudo curl ifconfig.me
 sudo ufw allow mysql && sudo ufw allow OpenSSH && sudo ufw allow ssh && sudo ufw allow 80 && sudo ufw 443 && sudo ufw allow 443 && sudo ufw 8080 allow
 passwd root 
